@@ -231,14 +231,14 @@ label {
 
 .progress-bar {
   height: 8px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--border-color);
   border-radius: 4px;
   overflow: hidden;
 }
 
 .progress-filled {
   height: 100%;
-  background-color: var(--kavia-orange);
+  background-color: var(--primary-green);
   transition: width 0.3s ease;
 }
 
@@ -255,13 +255,14 @@ label {
 .option {
   margin-bottom: 12px;
   padding: 12px;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: var(--background-light);
   border-radius: 6px;
   cursor: pointer;
+  border: 1px solid var(--border-color);
 }
 
 .option:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--border-color);
 }
 
 .quiz-navigation {
