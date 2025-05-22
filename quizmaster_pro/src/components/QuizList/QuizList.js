@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './QuizList.css';
 
 /**
@@ -7,6 +8,14 @@ import './QuizList.css';
  * @returns {React.Element} The QuizList component
  */
 const QuizList = () => {
+  const navigate = useNavigate();
+  
+  // Handler for starting a quiz
+  const handleStartQuiz = (quizId) => {
+    // Navigate to take-quiz route, passing the quiz ID as a state parameter
+    navigate('/take-quiz', { state: { quizId } });
+  };
+  
   // Placeholder quiz data
   const quizzes = [
     {
@@ -55,7 +64,12 @@ const QuizList = () => {
                 <span className="quiz-difficulty">{quiz.difficulty}</span>
               </div>
               <p className="quiz-question-count">{quiz.questionCount} questions</p>
-              <button className="btn">Start Quiz</button>
+              <button 
+                className="btn"
+                onClick={() => handleStartQuiz(quiz.id)}
+              >
+                Start Quiz
+              </button>
             </div>
           ))
         ) : (
