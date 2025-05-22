@@ -159,15 +159,16 @@ body {
   width: 100%;
   padding: 10px;
   border: 1px solid var(--border-color);
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: var(--background-white);
   border-radius: 4px;
-  color: var(--text-color);
+  color: var(--text-dark);
   font-size: 1rem;
 }
 
 .form-control:focus {
   outline: none;
-  border-color: var(--kavia-orange);
+  border-color: var(--primary-blue);
+  box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.25);
 }
 
 label {
