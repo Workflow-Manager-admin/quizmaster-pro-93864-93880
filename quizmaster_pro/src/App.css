@@ -129,23 +129,25 @@ body {
 }
 
 .stat-card {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: var(--background-light);
   border-radius: 8px;
   padding: 20px;
   text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .stat-number {
   font-size: 2rem;
   font-weight: bold;
-  color: var(--kavia-orange);
+  color: var(--primary-green);
   margin: 10px 0 0;
 }
 
 .dashboard-recent {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: var(--background-light);
   border-radius: 8px;
   padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Form styles */
