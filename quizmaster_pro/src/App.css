@@ -1,11 +1,12 @@
 :root {
-  --primary-blue: #1976D2;
+  /* Updated color palette */
+  --primary-blue: #1976d2;
   --primary-blue-light: #42A5F5;
   --primary-blue-dark: #0D47A1;
-  --primary-green: #2E7D32;
+  --primary-green: #43a047;
   --primary-green-light: #4CAF50;
   --primary-green-dark: #1B5E20;
-  --background-white: #FFFFFF;
+  --background-white: #ffffff;
   --background-light: #F5F5F5;
   --text-dark: #333333;
   --text-light: #FFFFFF;
