@@ -51,7 +51,7 @@
 
 .sidebar-nav a.active {
   background-color: var(--primary-green);
-  color: white;
+  color: var(--text-light);
 }
 
 .sidebar-nav a i {
