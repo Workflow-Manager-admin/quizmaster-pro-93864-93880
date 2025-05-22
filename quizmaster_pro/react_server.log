@@ -63,3 +63,4 @@ src/components/TakeQuiz/TakeQuiz.js
   Line 13:9:  'quizId' is assigned a value but never used  no-unused-vars
 
 webpack compiled with 1 warning
+Compiling...

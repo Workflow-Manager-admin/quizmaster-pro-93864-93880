@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Dashboard.css';
 
 /**
@@ -7,6 +8,13 @@ import './Dashboard.css';
  * @returns {React.Element} The Dashboard component
  */
 const Dashboard = () => {
+  const navigate = useNavigate();
+  
+  // Handler for navigating to the quiz list
+  const handleStartQuiz = () => {
+    navigate('/quizzes');
+  };
+  
   return (
     <div className="dashboard">
       <h1 className="page-title">Dashboard</h1>
@@ -27,6 +35,13 @@ const Dashboard = () => {
       <div className="dashboard-recent">
         <h2>Recent Activity</h2>
         <p>No recent activity to display.</p>
+        <button 
+          className="btn"
+          onClick={handleStartQuiz}
+          style={{ marginTop: '20px' }}
+        >
+          Start Quiz
+        </button>
       </div>
     </div>
   );
