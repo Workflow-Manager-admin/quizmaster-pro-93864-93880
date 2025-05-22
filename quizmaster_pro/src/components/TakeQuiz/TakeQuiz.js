@@ -1,4 +1,5 @@
 import React from 'react';
+import './TakeQuiz.css';
 
 /**
  * PUBLIC_INTERFACE
