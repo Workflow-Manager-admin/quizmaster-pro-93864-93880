@@ -1,4 +1,5 @@
 import React from 'react';
+import './QuizList.css';
 
 /**
  * PUBLIC_INTERFACE
