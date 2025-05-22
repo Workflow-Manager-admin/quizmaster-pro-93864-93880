@@ -13,7 +13,7 @@ function App() {
         <div className="container">
           <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
             <div className="logo">
-              <span className="logo-symbol">*</span> QuizMaster Pro
+              <span className="logo-symbol" style={{ color: 'var(--primary-green)' }}>*</span> QuizMaster Pro
             </div>
             <div>
               <button className="btn">Sign In</button>
