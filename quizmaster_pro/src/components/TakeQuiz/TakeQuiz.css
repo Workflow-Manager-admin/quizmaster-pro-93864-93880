@@ -1,0 +1,79 @@
+.take-quiz {
+  background-color: var(--background-white);
+}
+
+.take-quiz .page-title {
+  color: var(--primary-blue);
+}
+
+.quiz-progress {
+  margin-bottom: 30px;
+}
+
+.progress-bar {
+  height: 8px;
+  background-color: var(--border-color);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-filled {
+  height: 100%;
+  background-color: var(--primary-green);
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  margin-top: 8px;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.quiz-question h2 {
+  color: var(--text-dark);
+  margin-bottom: 24px;
+}
+
+.options-list {
+  margin: 25px 0;
+}
+
+.option {
+  margin-bottom: 12px;
+  padding: 12px;
+  background-color: var(--background-light);
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+}
+
+.option:hover {
+  background-color: var(--border-color);
+}
+
+.option input[type="radio"] {
+  margin-right: 10px;
+}
+
+.option label {
+  cursor: pointer;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.quiz-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.quiz-navigation .btn {
+  background-color: var(--primary-blue);
+  color: var(--text-light);
+}
+
+.quiz-navigation .btn:hover {
+  background-color: var(--primary-blue-light);
+}
